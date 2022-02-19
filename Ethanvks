@@ -1,0 +1,177 @@
+--Fixed GUI problems, New Script, Different Outline.
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Label = Instance.new("TextLabel")
+local Karmapanda = Instance.new("TextButton")
+local Label_2 = Instance.new("TextLabel")
+local Riverhub = Instance.new("TextButton")
+local Label_3 = Instance.new("TextLabel")
+local Label_4 = Instance.new("TextLabel")
+local Label_5 = Instance.new("TextLabel")
+local Label_6 = Instance.new("TextLabel")
+local Label_7 = Instance.new("TextLabel")
+local Label_8 = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Main.Position = UDim2.new(0.226804107, 0, 0.208459228, 0)
+Main.Size = UDim2.new(0, 706, 0, 367)
+Main.Active = true
+Main.Draggable = true
+
+Label.Name = "Label"
+Label.Parent = Main
+Label.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Label.Size = UDim2.new(0, 706, 0, 82)
+Label.Font = Enum.Font.GothamBold
+Label.Text = "10MilKill GUI | Scripts Por Ethanvks#1353"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextStrokeTransparency = 0.000
+Label.TextWrapped = true
+
+Karmapanda.Name = "Karmapanda"
+Karmapanda.Parent = Main
+Karmapanda.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Karmapanda.Position = UDim2.new(0.016997166, 0, 0.430517703, 0)
+Karmapanda.Size = UDim2.new(0, 200, 0, 50)
+Karmapanda.Font = Enum.Font.GothamBold
+Karmapanda.Text = "KarmaPanda"
+Karmapanda.TextColor3 = Color3.fromRGB(0, 0, 0)
+Karmapanda.TextScaled = true
+Karmapanda.TextSize = 14.000
+Karmapanda.TextWrapped = true
+Karmapanda.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+end)
+
+Label_2.Name = "Label"
+Label_2.Parent = Main
+Label_2.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+Label_2.Position = UDim2.new(0.0169971678, 0, 0.256130785, 0)
+Label_2.Size = UDim2.new(0, 200, 0, 50)
+Label_2.Font = Enum.Font.GothamBlack
+Label_2.Text = "Seccion ASTD"
+Label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_2.TextScaled = true
+Label_2.TextSize = 14.000
+Label_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.TextStrokeTransparency = 0.000
+Label_2.TextWrapped = true
+
+Riverhub.Name = "Riverhub"
+Riverhub.Parent = Main
+Riverhub.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Riverhub.Position = UDim2.new(0.016997166, 0, 0.610354185, 0)
+Riverhub.Size = UDim2.new(0, 200, 0, 50)
+Riverhub.Font = Enum.Font.GothamBold
+Riverhub.Text = "Riverhub"
+Riverhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Riverhub.TextScaled = true
+Riverhub.TextSize = 14.000
+Riverhub.TextWrapped = true
+Riverhub.MouseButton1Down:connect(function()
+	pcall(function()
+		loadstring(game:HttpGet("http://riverhub.xyz/" .. tostring(game.PlaceId) .. ".lua"))()
+	end)
+end)
+
+Label_3.Name = "Label"
+Label_3.Parent = Main
+Label_3.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+Label_3.BorderSizePixel = 0
+Label_3.Position = UDim2.new(0.300283283, 0, 0.256130785, 0)
+Label_3.Size = UDim2.new(0, 12, 0, 273)
+Label_3.Font = Enum.Font.GothamBlack
+Label_3.Text = ""
+Label_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_3.TextScaled = true
+Label_3.TextSize = 14.000
+Label_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.TextStrokeTransparency = 0.000
+Label_3.TextWrapped = true
+
+Label_4.Name = "Label"
+Label_4.Parent = Main
+Label_4.BackgroundColor3 = Color3.fromRGB(121, 69, 116)
+Label_4.BorderSizePixel = 0
+Label_4.Position = UDim2.new(0, 0, 0.256130785, 0)
+Label_4.Size = UDim2.new(0, 12, 0, 273)
+Label_4.Font = Enum.Font.GothamBlack
+Label_4.Text = ""
+Label_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_4.TextScaled = true
+Label_4.TextSize = 14.000
+Label_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.TextStrokeTransparency = 0.000
+Label_4.TextWrapped = true
+
+Label_5.Name = "Label"
+Label_5.Parent = Main
+Label_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Label_5.BorderSizePixel = 0
+Label_5.Position = UDim2.new(0.317280442, 0, 0.256130785, 0)
+Label_5.Size = UDim2.new(0, 7, 0, 273)
+Label_5.Font = Enum.Font.GothamBlack
+Label_5.Text = ""
+Label_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_5.TextScaled = true
+Label_5.TextSize = 14.000
+Label_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_5.TextStrokeTransparency = 0.000
+Label_5.TextWrapped = true
+
+Label_6.Name = "Label"
+Label_6.Parent = Main
+Label_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Label_6.BorderSizePixel = 0
+Label_6.Position = UDim2.new(0, 0, 0.256130785, 0)
+Label_6.Size = UDim2.new(0, 224, 0, 8)
+Label_6.Font = Enum.Font.GothamBlack
+Label_6.Text = ""
+Label_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_6.TextScaled = true
+Label_6.TextSize = 14.000
+Label_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_6.TextStrokeTransparency = 0.000
+Label_6.TextWrapped = true
+
+Label_7.Name = "Label"
+Label_7.Parent = Main
+Label_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Label_7.BorderSizePixel = 0
+Label_7.Position = UDim2.new(0, 0, 0.277929157, 0)
+Label_7.Size = UDim2.new(0, 6, 0, 265)
+Label_7.Font = Enum.Font.GothamBlack
+Label_7.Text = ""
+Label_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_7.TextScaled = true
+Label_7.TextSize = 14.000
+Label_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_7.TextStrokeTransparency = 0.000
+Label_7.TextWrapped = true
+
+Label_8.Name = "Label"
+Label_8.Parent = Main
+Label_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Label_8.BorderSizePixel = 0
+Label_8.Position = UDim2.new(0, 0, 0.980926454, 0)
+Label_8.Size = UDim2.new(0, 231, 0, 7)
+Label_8.Font = Enum.Font.GothamBlack
+Label_8.Text = ""
+Label_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label_8.TextScaled = true
+Label_8.TextSize = 14.000
+Label_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Label_8.TextStrokeTransparency = 0.000
+Label_8.TextWrapped = true
